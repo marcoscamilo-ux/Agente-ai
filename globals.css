@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 16px;
+}
+html, body { height: 100%; }
+body { @apply bg-black text-white; }
+.container { @apply max-w-6xl mx-auto; }
+.shadow-soft { box-shadow: 0 10px 25px rgba(0,0,0,.2); }
