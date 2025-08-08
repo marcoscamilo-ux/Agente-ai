@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import Scene from '@/components/Scene'
+import Scene from '../components/Scene'
 import { motion } from 'framer-motion'
 
 export default function Page() {
